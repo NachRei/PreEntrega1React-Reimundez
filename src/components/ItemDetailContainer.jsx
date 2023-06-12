@@ -1,7 +1,7 @@
 import React from 'react';
 import Cards from '../components/Cards';
 
-const ItemListContainer = ({productos}) => {
+const ItemDetailContainer = ({productos}) => {
   return (
     <div>
       {
@@ -15,4 +15,4 @@ const ItemListContainer = ({productos}) => {
   )
 }
 
-export default ItemListContainer
+export default ItemDetailContainer
